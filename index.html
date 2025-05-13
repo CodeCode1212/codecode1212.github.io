@@ -23,18 +23,22 @@
     a:hover, a:active {
       background-color: blue;
     }
+	img {
+	  width: 100px;
+	  height: 100px;
+	}
   </style>
 </head>
 <body style="background-color: #fff;">
   <h1>Hello, world!</h1>
-  <h6>Goodbye, bye</h6>
+  <h6 id = "C6">Goodbye, bye</h6>
   <p style="color: red; font-size: 60px;" title="Testing">This is my GitHub <br> Pages site.</p>
   <a href="https://www.google.com" target="_blank">This is a link</a>
   <hr>
   <h2 style="font-family: Arial;">Hello, next world</h2>
   <pre style="font-size: 30px; text-align: right;">
     <b style="border: 2px solid red;">Roses are red</b> 
-    <em>Violets are blue</em>
+    <em><img src= "https://postimg.cc/LY7B7gyp" style="float:right">Violets are blue</em>
     <i>This text is italic</i>
     <del>This was deleted</del>
     <mark>This is marked</mark>
@@ -48,5 +52,15 @@
   <abbr title="World War 3">WW3</abbr>
   <cite>India</cite> by Myria
   <address>Contact: 080808080</address>
+  <a href = "#C6"> This is the header</a>
+  <img src = "https://postimg.cc/LY7B7gyp" usemap = "#mapper">
+  <map name = "mapper">
+	<area shape="poly" coords="179,80,381,72,179,128,383,124" action = "myFunction()">
+  </map>
+  <script>
+	function myFunction(){
+		alert("This is an area");
+	}
+  </script>
 </body>
 </html>
